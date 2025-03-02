@@ -1,7 +1,7 @@
-body{background-color: rgb(198, 226, 240);
+body{background-color: rgb(178, 245, 192);
 }
 
-.box{max-width: 70%;
+.box{max-width: 60%;
 background: rgb(255, 254, 254);
 padding: 25px;
 margin: 60px auto;
@@ -27,7 +27,8 @@ margin-top: 12px;}
 .city{
     display: flex;
     justify-content:space-between;
-    border-bottom: 1px solid rgb(162, 162, 235);}
+    border-bottom: 1px solid rgb(159, 225, 245);
+margin-bottom: 15px;}
 
 
 .time{font-size: 35px;
@@ -38,4 +39,4 @@ margin-bottom: 12px;}
 
 footer{text-align: center;}
 
-a{color: coral;}
+a{color: rgb(250, 91, 152);}

@@ -48,7 +48,8 @@ function updateCities(event) {
              </div>
             <div class="time">${cityWatch.format("h:mm:ss ")}<small>${cityWatch.format("A")}</small></div>
        </div>
-      </div>`;
+      </div>
+      <a href="index.html">Back to cities</a>`;
 
 }
 updateWatch();
