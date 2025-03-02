@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="source/styles.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone-with-data-1970-2030.min.js"></script>
 </head>
 <body>
 <div class="box">
     <h1>World Clock</h1>
 
-    <select name="" id="cities">
+    <select name="" id="city">
         <option value="">Choose a city...</option>
-        <option value="">Johannesburg</option>
-        <option value="">Manila</option>
-        <option value="">Maputo</option>
-        <option value="">New York</option>
+        <option value="African/Johannesburg">Johannesburg</option>
+        <option value="Manila">Manila</option>
+        <option value="African/Maputo">Maputo</option>
+        <option value="America/New York">New York</option>
     </select>
-
+      <div id="cities">
        <div class="city" id="cairo">
              <div>
                <h2>Cairo</h2>
@@ -27,7 +28,7 @@
              </div>
             <div class="time"></div>
        </div>
-
+      </div>
 </div>
     <footer>
         Coded by <a href="https://github.com/nsikhonde-1" target="_blank">Nomcebo Sikhonde</a> ❤️open-sourced on 
